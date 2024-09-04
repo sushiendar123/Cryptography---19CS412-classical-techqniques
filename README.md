@@ -544,7 +544,7 @@ void vigenereDecrypt(char *text, const char *key) {
 }
 
 int main() {
-    const char *key = "YUV"; 
+    const char *key = "SUS"; 
     char message[] = "saveethaengineeringcollege"; 
     
     printf("Simulating Vigenere Cipher:\n");
