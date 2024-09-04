@@ -32,6 +32,7 @@ Implementation using C or pyhton code
 ## PROGRAM:
 PROGRAM:
 CaearCipher.
+```
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -66,15 +67,12 @@ scanf("%d", &key); // Read the key from the user
  
 caesarDecrypt(message, key); printf("Decrypted Message: %s", message); return 0;
 }
+```
 
 
 ## OUTPUT:
-OUTPUT:
-Simulating Caesar Cipher
+![cryptodiagram1](https://github.com/user-attachments/assets/a7e9d461-e5d8-4836-a5ce-3f6e1442c9e7)
 
-
-Input : Anna University
-Encrypted Message : Dqqd Xqlyhuvlwb Decrypted Message : Anna University
 
 ## RESULT:
 The program is executed successfully
@@ -119,6 +117,7 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -274,10 +273,11 @@ printf("Cipher text: %s\n", str);
 
 return 0;
 }
+```
 
 ## OUTPUT:
-Output:
-Key text: Monarchy Plain text: instruments Cipher text: gatlmzclrqtx
+![cryptodiagran2](https://github.com/user-attachments/assets/a7a71e70-d215-4898-a0c9-0ae4201f017b)
+
 
 ## RESULT:
 The program is executed successfully
@@ -357,15 +357,9 @@ strcat(dec, decode(a, b, c));
 }
 printf("Decoded message : %s\n", dec); return 0;
 }
-
-
 ## OUTPUT:
-OUTPUT:
-Simulating Hill Cipher
+![CRTYPTODIAGRAM3](https://github.com/user-attachments/assets/0bd070f2-f9ad-4c50-b5c8-cc4974f4edb9)
 
-
-Input Message : SecurityLaboratory
-Padded Message : SECURITYLABORATORY Encrypted Message : EACSDKLCAEFQDUKSXU Decrypted Message : SECURITYLABORATORY
 ## RESULT:
 The program is executed successfully
 
@@ -398,6 +392,7 @@ The Vigenere cipher is a method of encrypting alphabetic text by using a series 
 
 ## PROGRAM:
 PROGRAM:
+```
 #include<stdio.h> #include<string.h>
 //FunctiontoperformVigenereencryption voidvigenereEncrypt(char*text,constchar*key){ inttextLen= strlen(text);
 intkeyLen=strlen(key); for(inti =0;i< textLen;i++){ charc =text[i]; if(c>='A'&&c<='Z'){
@@ -426,16 +421,13 @@ intmain(){
 constchar *key="KEY";//Replacewithyourdesired key
 char message[]= "Thisisasecretmessage.";//Replace withyourmessage
 //Encrypt themessage vigenereEncrypt(message,key); printf("EncryptedMessage:%s\n",message);
-//Decrypt themessage backtotheoriginal vigenereDecrypt(message,key); printf("DecryptedMessage:%s\n",message); Return 0;
+//Decrypt themessage backtotheoriginal vigenereDecrypt(message,key); printf("DecryptedMessage:%s\n",message);
+Return 0;
+```
 
 ## OUTPUT:
-OUTPUT :
+![CRYPTODIAGRAM4](https://github.com/user-attachments/assets/3c942973-0fd0-4462-a728-31fcd2570ee0)
 
-Simulating Vigenere Cipher
-
-
-Input Message : SecurityLaboratory
-Encrypted Message : NMIYEMKCNIQVVROWXC Decrypted Message : SECURITYLABORATORY
 ## RESULT:
 The program is executed successfully
 
@@ -467,6 +459,7 @@ In the rail fence cipher, the plaintext is written downwards and diagonally on s
 ## PROGRAM:
 
 PROGRAM:
+```
 #include<stdio.h> #include<string.h> #include<stdlib.h> main()
 {
 int i,j,len,rails,count,code[100][1000]; char str[1000];
@@ -512,10 +505,9 @@ if(code[i][j]!=0) printf("%c",code[i][j]);
 }
 printf("\n");
 }
+```
 ## OUTPUT:
-OUTPUT:
-Enter a Secret Message wearediscovered
-Enter number of rails 2
-waeicvrderdsoee
+![CRYPTODIAGRAM5](https://github.com/user-attachments/assets/b75ab204-6144-49ff-baa1-9665fe68b59f)
+
 ## RESULT:
 The program is executed successfully
