@@ -419,7 +419,7 @@ int main() {
     char dec[1000] = "";
     int n;
 
-    strcpy(msg, "MOHAMEDABRARM");
+    strcpy(msg, "SUSHIENDARM");
 
     printf("Simulation of Hill Cipher\n");
     printf("Input message : %s\n", msg);
@@ -468,8 +468,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-![CRYPTODIAGRAM4](https://github.com/user-attachments/assets/3c942973-0fd0-4462-a728-31fcd2570ee0)
-
+![CRTYPTOGRAPHY](https://github.com/user-attachments/assets/6f6c5960-c0b6-4c5c-b91b-8b5a80cfd412)
 
 ## RESULT:
 The program is executed successfully
