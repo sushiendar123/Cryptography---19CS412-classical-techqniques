@@ -468,7 +468,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-![CRTYPTODIAGRAM3](https://github.com/user-attachments/assets/0bd070f2-f9ad-4c50-b5c8-cc4974f4edb9)
+![CRYPTODIAGRAM4](https://github.com/user-attachments/assets/3c942973-0fd0-4462-a728-31fcd2570ee0)
+
 
 ## RESULT:
 The program is executed successfully
